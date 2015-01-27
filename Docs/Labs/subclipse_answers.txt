@@ -1,1 +1,14 @@
-1.
+1.a)check out
+  b)update
+  c)work with my code
+  d)synchronize
+  e)merge(if necessary)
+  f)commit all changes
+
+2.a)check in
+  b)check out
+  c)update
+  d)work on code
+  e)periodically synchronize
+  f)merge
+  g)commit
