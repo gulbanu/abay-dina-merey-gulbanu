@@ -14,3 +14,5 @@
   g)commit
   
 3.Yes, developers should be committing to the repository often. Developers need to see how other developers have changed or added anything.
+
+4.False, when we make changes, the resources are saved locally. Others may have committed changes to the branch. We will want to update our resources with their changes so others can have access to them. Synchronizing our resources is the same as updating and committing, but not in one step.
