@@ -12,3 +12,5 @@
   e)periodically synchronize
   f)merge
   g)commit
+  
+3.Yes, developers should be committing to the repository often. Developers need to see how other developers have changed or added anything.
