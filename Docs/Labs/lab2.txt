@@ -1,0 +1,6 @@
+Our product available for everyone as an actor we choose just USER. 
+In our project USER can get this services:
+- USER can type text and transliterate 
+- USER can do setting to change symbols as he/she wants
+- after installing desktop application USER can use system in every text editor
+- USER can upload own file and get translit
