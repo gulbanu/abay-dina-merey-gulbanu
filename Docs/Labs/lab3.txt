@@ -2,8 +2,9 @@
 Not detailed describe of each step in screenflow, i.e. what can I do in each flow.
 2. What is in the screen #7(in assignment it's 3 and written as Audio setting)
 But in flow and screens non-understandable how to go to the seventh screen.
-3. There are 2 screenflow and no connection between them, and they need to be describe it in the details.
+3. There are 2 screenflow and no connection between them,
+i.e how to flow, how to go to the 7th screen and they need to be describe it in the details.
 
 Benefits of Screenshots:
 1. It's quickly develope of main view for showing for Customer. That he/she can understand is it same as he/she is want;
-2. Quickly developing of screens helps us, i.g. for teammembers to see how to start and build project, and analyse based on Screenshots.
+2. Quickly developing of screens helps us, i.e. for teammembers to see how to start and build project, and analyse based on Screenshots.
