@@ -1,0 +1,8 @@
+1)Analyze(A3-1example):
+*they wrote Features(Feature-1), but not described this Features actually, it's problem;
+*they listed 9 use-cases, but described and draw only four of them(in A3-SRS1 says that need at least 8);
+*in each description not included the following item: alternate flows(which is basic req for A3).
+
+2)Features(our SRS1):
+*fileTransliterationMechanism(include other mechanisms like conversation of file types and etc.);
+*realTimeTransliterationMechanism(javascript, ajax).
