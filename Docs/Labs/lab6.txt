@@ -1,11 +1,11 @@
 Example #1 analyzed;
  
  * 3.2.5.1.2 All the fields must be filled correctly.
- it's is not unambiguous, cause when I read, I can't understand which field and how to correct I should complete this field, it must be described in detail;
+ it's is not complete, cause when I read, I can't understand which field and how to correct I should complete this field, it must be described in detail;
  found by Abay
   * 3.2.1.1.5 The system shall redirect user to main page, if user is exists in database.
  It is not complete, because the system shall redirect user to main page, if USER and PASSWORD is exists in database. 
  found by Dina
  
- 
+ *
    
