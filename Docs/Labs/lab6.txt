@@ -7,5 +7,7 @@ Example #1 analyzed;
  It is not complete, because the system shall redirect user to main page, if USER and PASSWORD is exists in database. 
  found by Dina
  
- *
+ *3.2.6.4.2.1[Inverse Requirement] System should display the grade details correctly without any char set coding problem.
+ It is ambiguous, because they says that it's Inverse Req, but actually it's not Inverse with NOT
+ found by Merei
    
