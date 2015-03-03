@@ -1,7 +1,7 @@
 Example #1 analyzed;
  
  * 3.2.5.1.2 All the fields must be filled correctly.
- it's is unambiguous, cause when I read, I can't understand which field and how to correct I should complete this field, it must be described in detail;
+ it's is not unambiguous, cause when I read, I can't understand which field and how to correct I should complete this field, it must be described in detail;
  found by Abay
  
  
