@@ -1,0 +1,69 @@
+﻿<html>
+<head>
+	<title>Қазақша транслит - Translit.kz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<textarea id="w1" name="window1" rows="17" cols="100" onkeypress="getTranslit()" onkeyup="getTranslit()" onchange="getTranslit()" placeholder="Type here text in Kirill"></textarea>
+<br>
+<textarea id="w2" name="window2" rows="17" cols="100" placeholder="And get here Latin translit"></textarea>
+<br>
+<button onclick="getTranslit()">TRANSLIT</button>
+
+<script>
+
+function strtr(str, repl) {
+    for (var i = 0; i < str.length; i++) {
+        var f = str.charAt(i),
+            r = repl[f];
+        if (r) {
+            str = str.replace(new RegExp(f, 'g'), r);
+        }
+    }
+    return str;
+}
+
+var trans = {'а': 'a', 'ә': 'a', 'б': 'b', 'ц': 'c', 'ч': 'ch', 'д': 'd', 'е': 'e', 'ф': 'f', 'г': 'g', 'ғ': 'gh', 'һ': 'x', 'х': 'h', 'ы': 'y', 'і': 'i', 'ж': 'zh', 'к': 'k', 'қ': 'q', 'л': 'l', 'м': 'm', 'н': 'n', 'ң': 'ng', 'о': 'o', 'ө': 'o', 'п': 'p', 'р': 'r', 'с': 's', 'ш': 'sh', 'т': 't', 'ұ': 'u', 'ү': 'u', 'в': 'v', 'у': 'u', 'й': 'y',  'з': 'z',  'э': 'e',  'и': 'i',  'ю': 'yu',  'я': 'ya',  'ь': '#',  'ъ': '##',  'щ': 'shh', 'А': 'A', 'Ә': 'A', 'Б': 'B', 'Ц': 'C', 'Ч': 'CH', 'Д': 'D', 'Е': 'E', 'Ф': 'F', 'Г': 'G', 'Ғ': 'GH', 'Һ': 'X', 'Х': 'H', 'Ы': 'Y', 'І': 'I', 'Ж': 'ZH', 'К': 'K', 'Қ': 'Q', 'Л': 'L', 'М': 'M', 'Н': 'N', 'Ң': 'NG', 'О': 'O', 'Ө': 'O', 'П': 'P', 'Р': 'R', 'С': 'S', 'Ш': 'SH', 'Т': 'T', 'Ұ': 'U', 'Ү': 'U', 'В': 'V', 'У': 'U', 'Й': 'Y',  'З': 'Z',  'Э': 'E',  'И': 'I',  'Ю': 'YU',  'Я': 'YA',  'Ь': '#',  'Ъ': '##',  'Щ': 'SHH'};
+//alert(str);
+function getTranslit(){
+	var window1 = document.getElementById('w1').value;
+	//alert(window1);
+	var str = strtr(window1, trans);
+	document.getElementById('w2').value = str;
+}
+
+</script>
+<br>
+<br>
+<br>
+<input type="file" id="files" name="files[]" multiple />
+<output id="list"></output>
+
+<script>
+  function handleFileSelect(evt) {
+    var files = evt.target.files; // FileList object
+
+    // files is a FileList of File objects. List some properties.
+    var output = [];
+    for (var i = 0, f; f = files[i]; i++) {
+      output.push('<li><strong>', escape(f.name), '</strong> (', f.type || 'n/a', ') - ',
+                  f.size, ' bytes, last modified: ',
+                  f.lastModifiedDate.toLocaleDateString(), '</li>');
+    }
+    document.getElementById('list').innerHTML = '<ul>' + output.join('') + '</ul>';
+  }
+
+  document.getElementById('files').addEventListener('change', handleFileSelect, false);
+</script>
+
+<!--Here would be code for reading file-->
+
+
+
+<!--End of code for reading file-->
+
+<br>
+<br>
+<div id="footer"><p>Translit.kz © 2015 Все права защищены. Сделано командой helloWorld! специально для курса Software Engeneering по заказу Zh.Duisebekov!</p></div>
+</body>
+</html>
